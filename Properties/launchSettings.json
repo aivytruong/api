@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:61873",
+      "sslPort": 44368
+    }
+  },
+  "APImethods": {
+    "commandName": "Project",
+    "launchBrowser": true,
+    "launchUrl": "api/smarthome",
+    "applicationUrl": "https://localhost:5001;https://localhost:5000",
+    "environmentVariables": {
+      "ASPNETCORE_ENVIRONMENT": "Development"
+    }
+  }
+}
